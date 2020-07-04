@@ -1,0 +1,10 @@
+@media screen and (max-width :680px) {
+    .body {
+        width: 90%;
+    }
+    .mainheader {
+        
+        font-size: 110%;
+    }
+    
+    }

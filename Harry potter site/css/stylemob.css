@@ -1,0 +1,48 @@
+@media screen and (max-width :480px) {
+    .body {
+        width: 90%;
+    }
+    
+    
+    .mainheader nav {
+
+        height: 120px;
+
+
+
+    }
+    .mainheader nav ul{
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .mainheader nav ul li {
+        display: inline;
+    }
+    .mainheader  nav ul li a:link, .mainheader a:visited{
+        display: block;
+    }
+    .mainheader  nav ul li  a:hover, .mainheader a:active{
+        color: black;
+        background-color: #d7f532;
+        text-shadow: none; 
+    }
+        .maincontent{
+        
+            width: 100%;}
+    .thesidebar {
+        width: 96%;
+       
+}    
+}
+@media screen and (max-width :680px) {
+    .body {
+        width: 90%;
+    }
+    .mainheader {
+        
+        font-size: 110%;
+    }
+    
+    }

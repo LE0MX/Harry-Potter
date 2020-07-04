@@ -1,0 +1,219 @@
+/*
+    Theme Name:HARRY POTTER
+    Date: August
+    Discription: Apply for course HTML5&CSS3
+    Version: 1.0;
+    Author: Omar Ahmed
+    Author URL: 
+*/
+body {
+    /*background-image: url('christmas-1091551_1920.jpg'); */
+    background-color: #1d1919 ;
+    font-size: 90%; /* base font-size = 14[x */
+    font-family: Arial, 'lucida sans unicode';
+    line-height: 1.5;
+    text-align: left;
+}
+a{
+    text-decoration: none;}
+a:link, a:visited {color: #F44336 ;}
+a:hover, a:active {color: #f58233 ;}
+
+.body {
+    margin: 10px auto;
+    width: 96%;
+    clear:both;
+    
+}
+/* /////////////////////////////// */
+
+.mainheader nav ul img {
+    width: 25%;
+    height: 55px;
+    margin-top: 0.5%;
+    background-position: left;
+    background-attachment: fixed;
+    border-radius: 5px;
+    float: left;
+}
+.mainheader nav {
+    background-color: #a80d0d;
+    height: 60px;
+    border-radius: 5px;
+    -webk-border-radius: 5px;
+    -moz-border-radius: 5px;
+    
+}
+.mainheader nav ul{
+    text-align: right;
+    list-style: none;
+    margin: 0 auto;
+    float: right
+    
+}
+
+.mainheader nav ul li {
+    display: inline;
+    font-family:fantasy;
+    font-size: 25px;
+}
+.mainheader  nav ul li a:link, .mainheader a:visited{
+    color: #fff6da;
+    padding: 10px 60px;
+    display: inline-block;
+    height: 40px;
+    border-radius: 10px;
+    -webk-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+.mainheader  nav ul li  a:hover, .mainheader a:active{
+    color: black;
+    background-color: #facf5a;
+    text-shadow: none; 
+    border-radius: 10px;
+    -webk-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+/* ///////////////////////////////////////////////////////////// */
+.maincontent{
+    float: left;
+    width: 70%;
+   /* background-color:  #b9b9b9; */
+    
+}
+.top_content{
+    background-color: #fff6da;
+    padding: 3%;
+    margin-top: 3%;
+    border-radius: 5px;
+    -webk-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.top_content h2 {
+    font-family: Helvetica;
+}
+.top_content p {
+    font-family: Bookman;
+}
+
+.post-info {
+    font-size: 90%;
+    color: #999;
+    font-style: italic;
+    margin-top: -20px;
+}
+.post-content{
+    display: block;
+}
+.thesidebar{
+    background-color: #fff6da;
+    width: 24%;
+    margin: 2% 0 0 2%;
+    float: left;
+    padding: 1.5%;
+    border-radius: 5px;
+    -webk-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.footer{
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    background-color: #a80d0d;
+    height: 60px;
+    border-radius: 5px;
+    -webk-border-radius: 5px;
+    -moz-border-radius: 5px;
+    
+}
+.footer p {
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+
+}
+figure {
+    margin: 3% 3%;
+    font-size: 90%;
+    color: #999;
+}
+
+/*-----------------------------------------------*/
+@media screen and (max-width :480px) {
+    .body {
+        width: 90%;
+    }
+    
+    
+    .mainheader nav {
+
+        height: 120px;
+
+
+
+    }
+    .mainheader nav ul{
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .mainheader nav ul li {
+        display: inline;
+    }
+    .mainheader  nav ul li a:link, .mainheader a:visited{
+        display: block;
+    }
+    .mainheader  nav ul li  a:hover, .mainheader a:active{
+        color: black;
+        background-color: #d7f532;
+        text-shadow: none; 
+    }
+        .maincontent{
+        
+            width: 100%;}
+    .thesidebar {
+        width: 96%;
+       
+}    
+}
+@media screen and (max-width :680px) {
+    .body {
+        width: 90%;
+    }
+    .mainheader {
+        
+        font-size: 110%;
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
